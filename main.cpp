@@ -25,7 +25,7 @@ class SudokuFrame{
 	}
 
 	/**
-	  *	@desc Displays a menu to the user when the SudokuFrame objects in instantiated
+	  *	Displays a menu to the user when the SudokuFrame objects in instantiated
 	  *	(which is basically at the start of the program) to display all possible options
 	  *	from the user.
 	*/
@@ -156,7 +156,7 @@ class SudokuFrame{
 	}
 
 	/**
-	  *	@desc Returns 0/1 depending on editableFrame values.
+	  *	Returns 0/1 depending on editableFrame values.
 	  *	takes row,col of required cell as parameters
 	*/
 	public:int isEditable(int row, int col){
@@ -370,7 +370,7 @@ class SudokuSolver{
 		cout<<"Validating cells and values...\n\n";
 
 		solve();
-		cout<<"QED. Your puzzle has been solved!\n\n";
+		cout<<"Congratulations Your puzzle has been solved!\n\n";
 		displayFrame();
 
 		cout<<"\n\n";
